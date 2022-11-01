@@ -1,0 +1,276 @@
+{
+  "workbench": [
+    "5QFGpK",
+    "3xTLpY",
+    "YmhxF7",
+    "UiCKm7",
+    "dPgzif",
+    "cBJFQK",
+    "H5El8q",
+    "35NMWK",
+    "VgYMVb",
+    "QKtwb8",
+    "4mtu5e"
+  ],
+  "catalog": [
+    {
+      "id": "icKqcU",
+      "type": "group",
+      "name": "Protected Areas Database of the U.S. v3.0",
+      "members": [
+        {
+          "type": "esri-mapServer",
+          "name": "Fee Topology - All Errors",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/PAD_US_Fee_Topology/MapServer/0",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "e8U6Is",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Fee Topology - All Errors"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Fee Topology Fed/Fed Grtr than 5 Ac",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/PAD_US_Fee_Topology/MapServer/1",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "vcBEw8",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Fee Topology Fed/Fed Grtr than 5 Ac"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Fee Topology Fed/State Grtr than 5 Ac",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/PAD_US_Fee_Topology/MapServer/2",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "WSTIAr",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Fee Topology Fed/State Grtr than 5 Ac"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Proclamation and Other Planning Boundaries",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/Proclamation_and_Other_Planning_Boundaries/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "I42lRM",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Proclamation and Other Planning Boundaries"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Federal Management Agencies",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/Federal_Management_Agencies/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "bxlRQU",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Federal Management Agencies"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Federal Fee Managers (Authoritative Data)",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/Federal_Fee_Managers_Authoritative/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "6P5cJi",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Federal Fee Managers (Authoritative Data)"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Public Access",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/Public_Access/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "LtnhvU",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Public Access"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Protection Status by GAP Status Code",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/Protection_Status_by_GAP_Status_Code/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "vXBTVY",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Protection Status by GAP Status Code"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Protection Mechanism Category",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/Protection_Mechanism_Category/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "dIqAPU",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Protection Mechanism Category"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Manager Type",
+          "show": false,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/Manager_Type/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "v7w6fw",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Manager Type"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Fee Managers",
+          "show": true,
+          "url": "https://gis.usgs.gov/padus/rest/services/padus3/Fee_Managers/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": true,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "bDM6BH",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v3.0/Fee Managers"
+          ]
+        }
+      ],
+      "isOpen": false,
+      "shareKeys": [
+        "Root Group/Protected Areas Database of the U.S. v3.0"
+      ]
+    }
+  ],
+  "corsDomains": [
+    "sciencebase.usgs.gov",
+    "sciencebase.gov",
+    "srfs.wr.usgs.gov",
+    "gis1.usgs.gov",
+    "basemap.nationalmap.gov",
+    "carto.nationalmap.gov",
+    "geocode.arcgis.com",
+    "fly.maptiles.arcgis.com",
+    "services.arcgisonline.com"
+  ],
+  "homeCamera": {
+    "west": -122,
+    "south": 28,
+    "east": -64,
+    "north": 48
+  }
+}
