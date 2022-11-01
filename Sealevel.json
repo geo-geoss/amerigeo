@@ -1,0 +1,159 @@
+{
+    "baseMapName": "Positron (Light)",
+    "viewerMode": "2d",
+    "initialCamera": {
+    "west": -180,
+    "east": 180,
+    "north": 50,
+    "south": 0
+  },
+    "homeCamera": {
+    "west": -180,
+    "east": 180,
+    "north": 80,
+    "south": -80
+  },
+    "catalog": [
+        {
+            "name": "Tide Gauge Locations",
+            "type": "csv",
+            "url": "https://raw.githubusercontent.com/zdefne-usgs/sweet_slr/master/major_stations2.csv",
+            "description": "Sea level change data at major stations as presented in: <p>Sweet, W.V., R.E. Kopp, C. P. Weaver, J. Obeysekera, R. M. Horton, E.R. Thieler and C. Zervas (2017), Global and Regional Sea Level Rise Scenarios for the United States. NOAA Tech. Rep. NOS CO-OPS 83. <a href=\"https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf\">[link]</a></p> <p> To learn more, please visit the <a href=\"http://usgs.maps.arcgis.com/apps/Cascade/index.html?appid=668f6dc7014d45228c993302d3eab2f5\">USGS Sea Level Change story map</a>.",
+            "isEnabled": true,
+            "isLoading": true,
+            "isWaitingForDisclaimer": true,
+            "metadataUrl": "https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf",
+            //"dataUrl": "https://raw.githubusercontent.com/zdefne-usgs/sweet_slr/master/major_stations2.csv",
+            //"dataSourceUrl": "https://raw.githubusercontent.com/zdefne-usgs/sweet_slr/master/major_stations2.csv",
+            "dateFormat": {
+            "timelineTic" : " Year yyyy",
+            "currentTime" : " - Year yyyy"
+            },
+            "hideSource" : true,
+            "initialTimeSource" : "2100-01-01",
+            "idColumns": ["id"],
+            //"featureInfoTemplate" : {"template": "{{SPEED}} m/s", "formats": {"SPEED": {"maximumFractionDigits": 2}}}
+            "featureInfoTemplate" : {
+                "template" : "<table style=width:100%><th><tr><td><body>{{terria.timeSeries.title}}<body></td></tr></th><tr><td><chart x-column=\"{{terria.timeSeries.xName}}\" y-column=\"{{terria.timeSeries.yName}}\" id=\"{{terria.timeSeries.id}}\" column-units=\"{{terria.timeSeries.units}}\">{{terria.timeSeries.data}}</chart></td></tr></table>",
+                //"template" : "<h2>{{terria.timeSeries.title}}<h2><chart x-column=\"{{terria.timeSeries.xName}}\" y-column=\"{{terria.timeSeries.yName}}\" id=\"{{terria.timeSeries.id}}\" column-units=\"{{terria.timeSeries.units}}\">{{terria.timeSeries.data}}</chart>",
+            },
+            "tableStyle": { 
+                "dataVariable": "03-MED",
+                "colorBins": 9, 
+                "_comment": "colorMap : black-red",
+                "columns": {
+                    "id": {
+                        "type": "HIDDEN"
+                    },
+                    "BackgroundRSLrate": {
+                        "name": "Background RSL rate (mm/yr)",
+                        "units": "mm/yr",
+                        "colorBinMethod": "quantile",
+                     },
+                    "03-MED": {
+                        "name": "GMSL 0.3m Scenario (m)",
+                        "units": "m",
+                        "colorBinMethod": "quantile",
+                     },
+                    "03-LOW": {
+                        "name": "GMSL 0.3m Low End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "03-HIGH": {
+                        "name": "GMSL 0.3m High End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "05-MED": {
+                        "name": "GMSL 0.5m Scenario (m)",
+                        "units": "m",
+                        "colorBinMethod": "quantile",
+                     },
+                    "05-LOW": {
+                        "name": "GMSL 0.5m Low End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "05-HIGH": {
+                        "name": "GMSL 0.5m High End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "10-MED": {
+                        "name": "GMSL 1.0m Scenario (m)",
+                        "units": "m",
+                        "colorBinMethod": "quantile",
+                     },
+                    "10-LOW": {
+                        "name": "GMSL 1.0m Low End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "10-HIGH": {
+                        "name": "GMSL 1.0m High End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "15-MED": {
+                        "name": "GMSL 1.5m Scenario (m)",
+                        "units": "m",
+                        "colorBinMethod": "quantile",
+                     },
+                    "15-LOW": {
+                        "name": "GMSL 1.5m Low End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "15-HIGH": {
+                        "name": "GMSL 1.5m High End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "20-MED": {
+                        "name": "GMSL 2.0m Scenario (m)",
+                        "units": "m",
+                        "colorBinMethod": "quantile",
+                     },
+                    "20-LOW": {
+                        "name": "GMSL 2.0m Low End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "20-HIGH": {
+                        "name": "GMSL 2.0m High End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "25-MED": {
+                        "name": "GMSL 2.5m Scenario (m)",
+                        "units": "m",
+                        "colorBinMethod": "quantile",
+                     },
+                    "25-LOW": {
+                        "name": "GMSL 2.5m Low End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                    "25-HIGH": {
+                        "name": "GMSL 2.5m High End (m)",
+                        "units": "m",
+                        "chartLineColor": "#bfbfbf",
+                        "colorBinMethod": "quantile",
+                     },
+                }
+            },
+        },
+    ],
+}
