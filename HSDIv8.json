@@ -1,0 +1,208 @@
+{
+  "workbench": [],
+  "catalog": [
+    {
+      "id": "GIG6D8",
+      "type": "group",
+      "name": "Disaster Pilot Indices",
+      "members": [
+        {
+          "id": "7m6Rhw",
+          "type": "group",
+          "name": "Health Indices",
+          "members": [
+            {
+              "type": "wms",
+              "name": "Louisiana Mortality Risk Index",
+              "description": "The HSR.health COVID-19 Mortality Risk Index for Louisiana was developed for the Open Geospatial Consortium's 2021 Disasters Pilot.  The Mortality Risk Index is the mortality rate weighted prevalence of the age demographics of the population inconjunction with co-morbidities like diabetes and cancer.  The index values range from 0 to 100 with 0 being the least risk and 100 being the highest risk. Data sources used to create this index include: U.S. CDC, and the U.S. Census Bureau",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%253AOGC_LA_Tract_MRI",
+              "layers": "OGC_LA_Tract_MRI",
+              "id": "rzVfsl",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Health Indices/Louisiana Mortality Risk Index"
+              ]
+            },
+            {
+              "type": "esri-featureServer",
+              "name": "County Health Risk Index",
+              "description": "The HSR.health Health Risk Index was developed for the Open Geospatial Consortium's 2019 Disasters Resillience Pilot.  The Health Risk Index's purpose is to inform emergency responders and decision makers on the underlying health posture of Disaster Impacted populations to inform the health-response to those disasters.  This layer is the county level of this analysis and expands upon the social vulnerability index through the addition of health metrics. The data sources used to create this index include: U.S. CDC, U.S. Census Bureau, U.S. CMS, The Dartmouth Institute for Health Policy and Clinical Practice, U.S. HHS, AmeriGEO.",
+              "url": "https://services6.arcgis.com/Z3WOwmt1JSptvdPT/arcgis/rest/services/National_Health_Risk_CNTY/FeatureServer/0",
+              "id": "erVtFU",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Health Indices/County Health Risk Index"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "ZIP Code Health Risk Index",
+              "description": "The HSR.health Health Risk Index was developed for the Open Geospatial Consortium's 2019 Disasters Resillience Pilot.  The Health Risk Index's purpose is to inform emergency responders and decision makers on the underlying health posture of Disaster Impacted populations to inform the health-response to those disasters.  This layer is the county level of this analysis and expands upon the social vulnerability index through the addition of health metrics. The data sources used to create this index include: U.S. CDC, U.S. Census Bureau, U.S. CMS, The Dartmouth Institute for Health Policy and Clinical Practice, U.S. HHS, AmeriGEO.",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3ANational_Health_Risk_ZIP",
+              "layers": "National_Health_Risk_ZIP",
+              "id": "hYGjJ4",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Health Indices/ZIP Code Health Risk Index"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Peru Admin 03 Medical Supply Needs Index",
+              "description": "The HSR.health Medical Supply Needs Index for Peru was developed for the Open Geospatial Consortium's 2019 Disasters Resillience Pilot.  The Medical Supply Needs is an estimate of the Personal Protective Equipment needed for any particular geography based upon the population, the severity of covid, and the prevalence of at-risk populations.  Data for the medical supply needs index came from Platforma Nacional de Datos Abiertos, Statista, Instituto Nacional de Estadistica e Informatica, Google, The Humanitarian Data Exchange, and Open Street Maps.",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3AOGC_Peru_PPE_Needs_20210303",
+              "layers": "OGC_Peru_PPE_Needs_20210303",
+              "id": "WiXwGh",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Health Indices/Peru Admin 03 Medical Supply Needs Index"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Disaster Pilot Indices/Health Indices"
+          ]
+        },
+        {
+          "id": "IDqbRQ",
+          "type": "group",
+          "name": "Infrastructure Data",
+          "members": [
+            {
+              "type": "esri-featureServer",
+              "name": "HIFLD Hospital Locations",
+              "description": "This feature class/shapefile contains Hospitals derived from various sources (refer SOURCE field) for the Homeland Infrastructure Foundation-Level Data. HIFLD) database. https://gii.dhs.gov/HIFLD",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hospitals_1/FeatureServer/0",
+              "id": "Bcz2eJ",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Infrastructure Data/HIFLD Hospital Locations"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "OSM Peru Hospital Locations",
+              "description": "This layer was obtained from Open Street Maps and contains the Hospital Locations for Peru.",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3AperuHospitals",
+              "layers": "peruHospitals",
+              "id": "ngpRPj",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Infrastructure Data/OSM Peru Hospital Locations"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "OSM Peru Clinic Locations",
+              "description": "This layer was obtained from Open Street Maps and contains the Clinic Locations for Peru.",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3ArimacClinics",
+              "layers": "rimacClinics",
+              "id": "tcNpJj",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Infrastructure Data/OSM Peru Clinic Locations"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "OSM Peru Train Station Locations",
+              "description": "This layer was obtained from Open Street Maps and contains the Train Station Locations for Peru.",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3ArimacTrainStations",
+              "layers": "rimacTrainStations",
+              "id": "f4UYrC",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Infrastructure Data/OSM Peru Train Station Locations"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Pre-Flood Supply Routes",
+              "description": "This layer calculated the supply routes to 5 clinics without a flooding event.",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3ARimac_Non_Flood_Routes",
+              "layers": "Rimac_Non_Flood_Routes",
+              "id": "2mFr3E",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Infrastructure Data/Pre-Flood Supply Routes"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Post-Flood Supply Routes",
+              "description": "This layer identifies the modified supply routes to 5 nearby clinics with a flooding event.",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3ARimac_Flood_Routes_v2",
+              "layers": "Rimac_Flood_Routes_v2",
+              "id": "qavvfl",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Infrastructure Data/Post-Flood Supply Routes"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Disaster Pilot Indices/Infrastructure Data"
+          ]
+        },
+        {
+          "id": "G5dG35",
+          "type": "group",
+          "name": "Disaster Data",
+          "members": [
+            {
+              "type": "wms",
+              "name": "Hurricane Harvey Storm Path Radii",
+              "description": "Hurricane Harvey Storm Path Radii from the U.S. National Atmospheric and Oceanic Administration.  Original data can be found here: https://www.nhc.noaa.gov/gis/archive_forecast_results.php?id=al09&year=2017&name=Hurricane%20HARVEY",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3Aharvey_track",
+              "layers": "harvey_track",
+              "id": "v2d2uv",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Disaster Data/Hurricane Harvey Storm Path Radii"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Hurricane Dorian Storm Path Forecast Cone",
+              "description": "Hurricane Dorian Storm Path Forecast Cone from the U.S. National Atmospheric and Oceanic Administration.  Original data can be found here: https://www.nhc.noaa.gov/gis/archive_forecast_results.php?id=al05&year=2019&name=Hurricane%20DORIAN",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3Adorian_track",
+              "layers": "dorian_track",
+              "id": "yPERgq",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Disaster Data/Hurricane Dorian Storm Path Forecast Cone"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Tropical Storm Gordon Storm Path Radii",
+              "description": "Tropical Storm Gordon Storm Path Radii from the U.S. National Atmospheric and Oceanic Administration.  Original data can be found here: https://www.nhc.noaa.gov/gis/archive_forecast_results.php?id=al07&year=2018&name=Tropical%20Storm%20GORDON",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3Agordon_track",
+              "layers": "gordon_track",
+              "id": "JMEAQb",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Disaster Data/Tropical Storm Gordon Storm Path Radii"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Hurricane Maria Storm Path Radii",
+              "description": "Hurricane Maria Storm Path Radii from the U.S. National Atmospheric and Oceanic Administration.  Original data can be found here: https://www.nhc.noaa.gov/gis/archive_forecast_results.php?id=al15&year=2017&name=Hurricane%20MARIA",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3Amaria_track",
+              "layers": "maria_track",
+              "id": "wRAKTz",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Disaster Data/Hurricane Maria Storm Path Radii"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Rimac River Basin Flooding Extent 2017-03-15",
+              "description": "Rimac River Basin Flooding Extent Polygon from 2017-03-15.",
+              "url": "https://geoplatformv2.hsrhealthanalytics.org/geoserver/geonode/wms?service=WMS&version=1.1.0&request=GetMap&layers=geonode%3ArimacFloodExtent20170315",
+              "layers": "rimacFloodExtent20170315",
+              "id": "WDf74s",
+              "shareKeys": [
+                "Root Group/Disaster Pilot Indices/Disaster Data/Rimac River Basin Flooding Extent 2017-03-15"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Disaster Pilot Indices/Disaster Data"
+          ]
+        }
+      ],
+      "shareKeys": [
+        "Root Group/Disaster Pilot Indices"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2428 @@
+{
+  "catalog": [
+    {
+      "name": "Homeland Infrastructure Foundation-Level Data",
+      "type": "group",
+      "items": [
+        {
+          "name": "Agriculture",
+          "type": "group",
+          "items": [
+            {
+              "name": "Poultry Slaughtering and Processing",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Poultry_Slaughters/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Poultry Slaughtering and Processing."
+            }
+          ]
+        },
+        {
+          "name": "Borders",
+          "type": "group",
+          "items": [
+            {
+              "name": "Canada and Mexico Border Crossing",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Border_Crossings_DS/FeatureServer/1",
+              "description": "HIFLD geospatial data sets containing information on Canada and Mexico Border Crossing."
+            },
+            {
+              "name": "Canada and US Border",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Canada_and_US_Border/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Canada and US Border."
+            },
+            {
+              "name": "Mexico and US Border",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Mexico_and_US_Border/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Mexico and US Border."
+            }
+          ]
+        },
+        {
+          "name": "Boundaries",
+          "type": "group",
+          "items": [
+            {
+              "name": "Area Code Boundaries",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Area_Code_Boundaries/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Bathymetric Contours",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Bathymetry_contours/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "EPA Region Boundaries EEZ",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/EPA_Regions_gdb/FeatureServer/1",
+              "description": ""
+            },
+            {
+              "name": "Monuments",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/monuments1/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "National State Local Private Parks",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/National_State_Local_Private_Parks/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Political Boundaries (Area)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Political_Boundaries_Area/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Political Boundaries (Area)."
+            },
+            {
+              "name": "Political Boundaries (Line)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Political_Boundaries_Line/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Political Boundaries (Line)."
+            },
+            {
+              "name": "Protected Areas Database of the United States (PAD-US)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/PAD_US/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Protected Areas Database of the United States (PAD-US)."
+            },
+            {
+              "name": "Urban Areas",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Urban_Areas/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "US County Boundaries",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/US_County_Boundaries/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on US County Boundaries."
+            },
+            {
+              "name": "US State Boundaries",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/US_State_Boundaries/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on US State Boundaries."
+            },
+            {
+              "name": "USCAE Districts Simple",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/usace_districts_simple/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "American Indian / Alaska Native / Native Hawaiian (AIANNH) Areas",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/AIANNHA/MapServer",
+              "description": "HIFLD geospatial data sets containing information on American Indian / Alaska Native / Native Hawaiian (AIANNH) Areas."
+            },
+            {
+              "name": "Coastal Barrier Resources System (CBRS) Boundaries",
+              "type": "esri-mapServer",
+              "url": "https://cbrsgis.wim.usgs.gov/arcgis/rest/services/FEMA/CBRS_Prohibitions/MapServer/0",
+              "description": ""
+            },
+            {
+              "name": "Core Based Statistical Areas (CBSA)",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/CBSA/MapServer",
+              "description": "HIFLD geospatial data sets containing information on Core Based Statistical Areas (CBSA)."
+            },
+            {
+              "name": "Environmental Protection Agency (EPA) Regions",
+              "type": "esri-mapServer",
+              "url": "https://geodata.epa.gov/arcgis/rest/services/OEI/EPA_Locations/MapServer/3",
+              "description": "HIFLD geospatial data sets containing information on Environmental Protection Agency (EPA) Regions."
+            },
+            {
+              "name": "Legislative Areas",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer",
+              "description": "HIFLD geospatial data sets containing information on Legislative Areas."
+            },
+            {
+              "name": "National Forests",
+              "type": "esri-mapServer",
+              "url": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_ProclaimedForestBoundaries_01/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on National Forests."
+            },
+            {
+              "name": "National Marine Fisheries Service Regions",
+              "type": "esri-mapServer",
+              "url": "https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/BoundariesAndRegions/MapServer/2/query?outFields=*&where=1%3D1",
+              "description": "HIFLD geospatial data sets containing information on National Marine Fisheries Service Regions."
+            }
+          ]
+        },
+        {
+          "name": "Chemicals",
+          "type": "group",
+          "items": [
+            {
+              "name": "Environmental Protection Agency (EPA) Facility Registry Service (FRS) Power Plants",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Environmental_Protection_Agency_EPA_Facility_Registry_Service_FRS_Power_Plants/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "EPA Emergency Response (ER) Facility Response Plan (FRP) Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/EPA_Emergency_Response_(ER)_Facility_Response_Plan_(FRP)_Facilities/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "EPA Emergency Response (ER) Risk Management Plan (RMP) Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/EPA_Emergency_Response_ER_Risk_Management_Plan_RMP_Facilities/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "EPA Emergency Response (ER) Toxic Substances Control Act (TSCA) Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/EPA_Emergency_Response_ER_Toxic_Substances_Control_Act_TSCA_Facilities/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "FRS Interests",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Facility_Interest/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Solid Waste Landfill Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Solid_Waste_Landfill_Facilities/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Solid Waste Landfill Facilities."
+            },
+            {
+              "name": "Wastewater Treatment Plants",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Wastewater/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Environmental Protection Agency (EPA) Facilities",
+              "type": "esri-mapServer",
+              "url": "https://geodata.epa.gov/arcgis/rest/services/OEI/EPA_Locations/MapServer/1",
+              "description": "HIFLD geospatial data sets containing information on Environmental Protection Agency (EPA) Facilities."
+            },
+            {
+              "name": "EPA Comprehensive Environmental Response Compensation and Liability Information System Facilities",
+              "type": "esri-mapServer",
+              "url": "https://geodata.epa.gov/arcgis/rest/services/OEI/FRS_INTERESTS/MapServer/7",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "Commercial",
+          "type": "group",
+          "items": [
+            {
+              "name": "Fortune 500 Corporate Headquarters",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Fortune_500_Corporate_Headquarters/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Fortune 500 Corporate Headquarters."
+            },
+            {
+              "name": "General Manufacturing Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/General_Manufacturing_Facilities/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on General Manufacturing Facilities."
+            }
+          ]
+        },
+        {
+          "name": "Communications",
+          "type": "group",
+          "items": [
+            {
+              "name": "AM Transmission Towers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/AM_Transmission_Towers/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on AM Transmission Towers."
+            },
+            {
+              "name": "Antenna Structure Registrate",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Antenna_Structure_Registrate1/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Antenna Structure Registrate."
+            },
+            {
+              "name": "Broadband Radio Service (BRS) and Educational Broadband Service (EBS) Transmitters",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/BRS_EBS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Broadband Radio Service (BRS) and Educational Broadband Service (EBS) Transmitters."
+            },
+            {
+              "name": "Cellular Service Areas",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Cellular_Service_Areas/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Cellular Service Areas."
+            },
+            {
+              "name": "Cellular Towers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/CellularTowers_gdb/FeatureServer/0/query?outFields=*&where=1%3D1",
+              "description": "HIFLD geospatial data sets containing information on Cellular Towers."
+            },
+            {
+              "name": "FM Transmission Towers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/FM_Transmission_Towers/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on FM Transmission Towers."
+            },
+            {
+              "name": "Land Mobile Broadcast Towers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/LM__Broadcast_Test/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Land Mobile Broadcast Towers."
+            },
+            {
+              "name": "Land Mobile Commercial Transmission Towers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Land_Mobile_Commercial_Transmission_Towers/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Land Mobile Commercial Transmission Towers."
+            },
+            {
+              "name": "Land Mobile Private Transmission Towers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Land_Mobile_Private_Transmission_Towers/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Land Mobile Private Transmission Towers."
+            },
+            {
+              "name": "Microwave Service Towers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Microwave_Service_Towers_Test/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Microwave Service Towers."
+            },
+            {
+              "name": "Paging Transmission Towers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Paging_Transmission_Towers/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Paging Transmission Towers."
+            },
+            {
+              "name": "TV Analog Station Transmitters",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/TV_Analog_Station_Transmitters/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on TV Analog Station Transmitters."
+            },
+            {
+              "name": "TV Broadcast Contours",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/TV_Broadcast_Contours/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on TV Broadcast Contours."
+            },
+            {
+              "name": "TV Digital Station Transmitters",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/TV_Digital_Station_Transmitters/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on TV Digital Station Transmitters."
+            }
+          ]
+        },
+        {
+          "name": "Education",
+          "type": "group",
+          "items": [
+            {
+              "name": "Child Care Centers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Child_Care/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Child Care Centers."
+            },
+            {
+              "name": "Colleges and Universities Campuses",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Colleges_and_Universities_Campuses/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Colleges and Universities Campuses."
+            },
+            {
+              "name": "Colleges and Universities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Colleges_and_Universities/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Colleges and Universities."
+            },
+            {
+              "name": "Private Schools",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Private_Schools/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Private Schools."
+            },
+            {
+              "name": "Public Schools",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Public_Schools/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Public Schools."
+            },
+            {
+              "name": "Supplemental Colleges",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Supplemental_Colleges/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Supplemental Colleges."
+            },
+            {
+              "name": "Truck Driving Schools",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Truck_Driving_Schools/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Truck Driving Schools."
+            }
+          ]
+        },
+        {
+          "name": "Emergency Services",
+          "type": "group",
+          "items": [
+            {
+              "name": "American Red Cross Chapter Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/American_Red_Cross_Chapter_Facilities/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on American Red Cross Chapter Facilities."
+            },
+            {
+              "name": "American Red Cross Chapter Regions",
+              "type": "esri-featureServer",
+              "url": "https://hosting.rcview.redcross.org/arcgis/rest/services/Hosted/ARC_Master_Geography_FY19_January/FeatureServer/3",
+              "description": "HIFLD geospatial data sets containing information on American Red Cross Chapter Regions."
+            },
+            {
+              "name": "American Red Cross Facilities ",
+              "type": "esri-featureServer",
+              "url": "https://hosting.rcview.redcross.org/arcgis/rest/services/Hosted/ARC_Master_Geography_FY19_January/FeatureServer/1",
+              "description": "HIFLD geospatial data sets containing information on American Red Cross Facilities ."
+            },
+            {
+              "name": "American Red Cross Headquarters",
+              "type": "esri-featureServer",
+              "url": "https://hosting.rcview.redcross.org/arcgis/rest/services/Hosted/ARC_Master_Geography_FY19_January/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on American Red Cross Headquarters."
+            },
+            {
+              "name": "American Red Cross Regions",
+              "type": "esri-featureServer",
+              "url": "https://hosting.rcview.redcross.org/arcgis/rest/services/Hosted/ARC_Master_Geography_FY19_January/FeatureServer/2",
+              "description": "HIFLD geospatial data sets containing information on American Red Cross Regions."
+            },
+            {
+              "name": "Emergency Medical Service (EMS) Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Emergency_Medical_Service_(EMS)_Stations_gdb/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Emergency Medical Service (EMS) Stations."
+            },
+            {
+              "name": "Federal Emergency Management Agency (FEMA) Recovery Offices",
+              "type": "esri-featureServer",
+              "url": "https://gis.fema.gov/arcgis/rest/services/FEMA/JFOs/FeatureServer/1",
+              "description": "HIFLD geospatial data sets containing information on Federal Emergency Management Agency (FEMA) Recovery Offices."
+            },
+            {
+              "name": "Federal Emergency Management Agency (FEMA) Regions",
+              "type": "esri-featureServer",
+              "url": "https://gis.fema.gov/arcgis/rest/services/FEMA/RegHQs/FeatureServer/2",
+              "description": "HIFLD geospatial data sets containing information on Federal Emergency Management Agency (FEMA) Regions."
+            },
+            {
+              "name": "Fire Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Fire_Station/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Fire Stations."
+            },
+            {
+              "name": "Hurricane Evacuation Routes",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hurricane_Evacuation_Routes/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Hurricane Evacuation Routes."
+            },
+            {
+              "name": "Local Emergency Operations Center (EOC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Local_Emergency_Operations_Centers_EOC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Local Emergency Operations Center (EOC)."
+            },
+            {
+              "name": "National Shelter System Facilities",
+              "type": "esri-featureServer",
+              "url": "https://gis.fema.gov/arcgis/rest/services/NSS/FEMA_NSS/FeatureServer/5",
+              "description": "HIFLD geospatial data sets containing information on National Shelter System Facilities."
+            },
+            {
+              "name": "PSAP 911 Service Area Boundaries",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/PSAP_911_Service_Area_Boundaries/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on PSAP 911 Service Area Boundaries."
+            },
+            {
+              "name": "State Emergency Operations Centers (EOC)",
+              "type": "esri-featureServer",
+              "url": "https://gis.fema.gov/arcgis/rest/services/FEMA/State_EOC/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on State Emergency Operations Centers (EOC)."
+            }
+          ]
+        },
+        {
+          "name": "Energy",
+          "type": "group",
+          "items": [
+            {
+              "name": "Biodiesel Plants",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/BiodieselPlants/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Bottom Wells",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Bottom_Wells/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Bottom Wells."
+            },
+            {
+              "name": "Control Areas",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Control_Area/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Control Areas."
+            },
+            {
+              "name": "DOE Petroleum Reserves",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/DOE_Petroleum_Reserves/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on DOE Petroleum Reserves."
+            },
+            {
+              "name": "Electric Holding Company Areas",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Holding_Company_Areas/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Electric Holding Company Areas."
+            },
+            {
+              "name": "Electric Planning Areas",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Planning_Areas/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Electric Planning Areas."
+            },
+            {
+              "name": "Electric Power Transmission Lines",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Transmission_Lines_gdb/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Electric Power Transmission Lines."
+            },
+            {
+              "name": "Electric Retail Service Territories",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Retail_Service_Territories/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Electric Retail Service Territories."
+            },
+            {
+              "name": "Electric Substations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Substations_gdb/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Electric Substations."
+            },
+            {
+              "name": "Environmental Protection Agency (EPA) Facility Registry Service (FRS) Power Plants",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Environmental_Protection_Agency_EPA_Facility_Registry_Service_FRS_Power_Plants/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Environmental Protection Agency (EPA) Facility Registry Service (FRS) Power Plants."
+            },
+            {
+              "name": "Ethanol Plants",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Ethanol_Plants/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Ethanol Plants."
+            },
+            {
+              "name": "Ethanol Transloading Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Ethanol_Transloading_Facilities/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Ethanol Transloading Facilities."
+            },
+            {
+              "name": "Federal Energy Regulatory Commission (FERC) Regions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/FERC_Regions/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Federal Energy Regulatory Commission (FERC) Regions."
+            },
+            {
+              "name": "FERC Regions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/FERC_Regions/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Generating Units",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Generating_Units_1/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Generating Units."
+            },
+            {
+              "name": "Hydrocarbon Gas Liquid Pipelines",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hydrocarbon_Gas_Liquid_Pipelines/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Hydrocarbon Gas Liquid Pipelines."
+            },
+            {
+              "name": "Independent System Operators",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Independent_System_Operator/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Independent System Operators."
+            },
+            {
+              "name": "Independent System Operators",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Independent_System_Operators/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Liquified Natural Gas Import Exports and Terminals",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Liquified_Natural_Gas_Import_Exports_and_Terminals/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Liquified Natural Gas Import Exports and Terminals."
+            },
+            {
+              "name": "Natural Gas Compressor Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Natural_Gas_Compressor_Stations/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Natural Gas Compressor Stations."
+            },
+            {
+              "name": "Natural Gas Import and Export",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Natural_Gas_Import_Export/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Natural Gas Import and Export."
+            },
+            {
+              "name": "Natural Gas Local Distribution Company Service Territories",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Natural_Gas_Local_Distribution_Company_Service_Territories/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Natural Gas Local Distribution Company Service Territories."
+            },
+            {
+              "name": "Natural Gas Market Hubs",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Natural_Gas_Market_Hubs/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Natural Gas Market Hubs."
+            },
+            {
+              "name": "Natural Gas Pipelines",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Natural_Gas_Liquid_Pipelines/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Natural Gas Pipelines."
+            },
+            {
+              "name": "Natural Gas Processing Plants",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Natural_Gas_Processing_Plants/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Natural Gas Processing Plants."
+            },
+            {
+              "name": "Natural Gas Receipt Delivery Points",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Natural_Gas_Receipt_Delivery_Points/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Natural Gas Receipt Delivery Points."
+            },
+            {
+              "name": "Natural Gas Service Territories",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Natural_Gas_Service_Territories/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Natural Gas Service Territories."
+            },
+            {
+              "name": "Natural Gas Storage Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Natural_Gas_Storage_Facilities_1/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Natural Gas Storage Facilities."
+            },
+            {
+              "name": "NERC Regions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/NERC_Region/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on NERC Regions."
+            },
+            {
+              "name": "NERC Reliability Coordinators",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/NERC_Reliability_Coordinators_gdb/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on NERC Reliability Coordinators."
+            },
+            {
+              "name": "Non Gasoline Alternative Fueling Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Non_Gasoline_Alternative_Fueling_Stations/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Non Gasoline Alternative Fueling Stations."
+            },
+            {
+              "name": "Oil and Natural Gas Fields",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Oil_and_Natural_Gas_Fields/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Oil and Natural Gas Fields."
+            },
+            {
+              "name": "Oil and Natural Gas Interconnects",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Oil_and_Natural_Gas_Interconnects_1/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Oil and Natural Gas Interconnects."
+            },
+            {
+              "name": "Oil and Natural Gas Platforms",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Oil_and_Natural_Gas_Platforms/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Oil and Natural Gas Platforms."
+            },
+            {
+              "name": "Oil and Natural Gas Wells",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Oil_and_Natural_Gas_Wells/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Oil and Natural Gas Wells."
+            },
+            {
+              "name": "Oil Refineries",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Oil_Refinieries/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Oil Refineries."
+            },
+            {
+              "name": "Oil Refinery (Polygon)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Oil_Refinery_(Polygon)/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Oil Refinery (Polygon)."
+            },
+            {
+              "name": "Petroleum Ports",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Petroleum_Ports/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Petroleum Ports."
+            },
+            {
+              "name": "Petroleum Terminals",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Petroleum_Terminals_1/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Petroleum Terminals."
+            },
+            {
+              "name": "POL Pumping Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/POL_Pumping_Stations/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on POL Pumping Stations."
+            },
+            {
+              "name": "Power Plants",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Plants_gdb/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Power Plants."
+            },
+            {
+              "name": "Outer Continental Shelf (OCS) Drilling Platforms",
+              "type": "esri-mapServer",
+              "url": "https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Outer Continental Shelf (OCS) Drilling Platforms."
+            },
+            {
+              "name": "Outer Continental Shelf (OCS) Oil and Natural Gas Wells",
+              "type": "esri-mapServer",
+              "url": "https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/1",
+              "description": "HIFLD geospatial data sets containing information on Outer Continental Shelf (OCS) Oil and Natural Gas Wells."
+            }
+          ]
+        },
+        {
+          "name": "Finance",
+          "type": "group",
+          "items": [
+            {
+              "name": "FDIC Insured Banks Branch Service Type Table",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/REF_BRSERTYP/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on FDIC Insured Banks Branch Service Type Table."
+            },
+            {
+              "name": "FDIC Insured Banks Institution Class Table",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/REF_BKCLASS/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on FDIC Insured Banks Institution Class Table."
+            },
+            {
+              "name": "FDIC Insured Banks Primary Federal Regulator Table",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/REF_REGAGNT/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on FDIC Insured Banks Primary Federal Regulator Table."
+            },
+            {
+              "name": "FDIC Insured Banks State Code Table",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/REF_STALP/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on FDIC Insured Banks State Code Table."
+            },
+            {
+              "name": "FDIC Insured Banks Status Table",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/REF_STATUS/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on FDIC Insured Banks Status Table."
+            },
+            {
+              "name": "FDIC Insured Banks",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/FDIC_InsuredBanks/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on FDIC Insured Banks."
+            },
+            {
+              "name": "Gold Bullion Repositories",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Gold_Bullion_Repositories/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Government Financial Processing Centers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Government_Financial_Processing_Centers/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Government Financial Processing Centers."
+            },
+            {
+              "name": "Large Mutual Fund Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Large_Mutual_Fund_Facilities/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Large Mutual Fund Facilities."
+            },
+            {
+              "name": "NCUA Insured Credit Unions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/NCUA_Insured_Credit_Unions/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on NCUA Insured Credit Unions."
+            },
+            {
+              "name": "US Federal Reserve Systems",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/US_Federal_Reserve_Systems/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on US Federal Reserve Systems."
+            },
+            {
+              "name": "US Mint Bureau of Engraving and Printing (BEP) Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/US_Mint_BEP_Facs/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on US Mint Bureau of Engraving and Printing (BEP) Facilities."
+            }
+          ]
+        },
+        {
+          "name": "Food Industry",
+          "type": "group",
+          "items": [
+            {
+              "name": "Public Refrigerated Warehouses",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Public_Refrigerated_Warehouses/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Public Refrigerated Warehouses."
+            }
+          ]
+        },
+        {
+          "name": "GeoNames",
+          "type": "group",
+          "items": [
+            {
+              "name": "Cities and Towns NTAD",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Populated_Places_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Cities and Towns NTAD."
+            },
+            {
+              "name": "Geographic Names Information System (GNIS) Admin Features",
+              "type": "esri-mapServer",
+              "url": "https://services.nationalmap.gov/arcgis/rest/services/WFS/geonames/MapServer/2",
+              "description": "HIFLD geospatial data sets containing information on Geographic Names Information System (GNIS) Admin Features."
+            },
+            {
+              "name": "Geographic Names Information System (GNIS) Community Features",
+              "type": "esri-mapServer",
+              "url": "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/18",
+              "description": "HIFLD geospatial data sets containing information on Geographic Names Information System (GNIS) Community Features."
+            },
+            {
+              "name": "Geographic Names Information System (GNIS) Cultural Features",
+              "type": "esri-mapServer",
+              "url": "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/24",
+              "description": "HIFLD geospatial data sets containing information on Geographic Names Information System (GNIS) Cultural Features."
+            },
+            {
+              "name": "Geographic Names Information System (GNIS) Historical Features",
+              "type": "esri-mapServer",
+              "url": "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/24",
+              "description": "HIFLD geospatial data sets containing information on Geographic Names Information System (GNIS) Historical Features."
+            },
+            {
+              "name": "Geographic Names Information System (GNIS) Hydrography Lines",
+              "type": "esri-mapServer",
+              "url": "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/2",
+              "description": "HIFLD geospatial data sets containing information on Geographic Names Information System (GNIS) Hydrography Lines."
+            },
+            {
+              "name": "Geographic Names Information System (GNIS) Hydrography Points",
+              "type": "esri-mapServer",
+              "url": "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/25",
+              "description": "HIFLD geospatial data sets containing information on Geographic Names Information System (GNIS) Hydrography Points."
+            },
+            {
+              "name": "Geographic Names Information System (GNIS) Landform Features",
+              "type": "esri-mapServer",
+              "url": "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/10",
+              "description": "HIFLD geospatial data sets containing information on Geographic Names Information System (GNIS) Landform Features."
+            },
+            {
+              "name": "Geographic Names Information System (GNIS) Structures",
+              "type": "esri-mapServer",
+              "url": "https://services.nationalmap.gov/arcgis/rest/services/WFS/geonames/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Geographic Names Information System (GNIS) Structures."
+            },
+            {
+              "name": "Geographic Names Information System (GNIS) Transportation Features",
+              "type": "esri-mapServer",
+              "url": "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer/10",
+              "description": "HIFLD geospatial data sets containing information on Geographic Names Information System (GNIS) Transportation Features."
+            }
+          ]
+        },
+        {
+          "name": "Government",
+          "type": "group",
+          "items": [
+            {
+              "name": "BIA Indian Lands Dataset (Indian Lands of the United States)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/BIA_Indian_Lands_Dataset_(Indian_Lands_of_the_United_States)/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on BIA Indian Lands Dataset (Indian Lands of the United States)."
+            },
+            {
+              "name": "Courthouses",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Courthouses_gdb/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Courthouses."
+            },
+            {
+              "name": "DoD Site Boundaries (Public)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/DoD_Sites_Boundaries_Public/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on DoD Site Boundaries (Public)."
+            },
+            {
+              "name": "DoD Site Locations (Public)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/DoD_Sites_Points_Public/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on DoD Site Locations (Public)."
+            },
+            {
+              "name": "Food and Drug Administration (FDA) Office Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Food_and_Drug_Administration_FDA_Office_Facilities/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Food and Drug Administration (FDA) Office Facilities."
+            },
+            {
+              "name": "Formerly Used Defense Sites (FUDS) Program District Boundaries",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/fuds/FeatureServer/9",
+              "description": "HIFLD geospatial data sets containing information on Formerly Used Defense Sites (FUDS) Program District Boundaries."
+            },
+            {
+              "name": "Formerly Used Defense Sites (FUDS) Projects (Points)",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/fuds/FeatureServer/2",
+              "description": "HIFLD geospatial data sets containing information on Formerly Used Defense Sites (FUDS) Projects (Points)."
+            },
+            {
+              "name": "Formerly Used Defense Sites (FUDS) Public Munitions Response Areas (MRA)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Formerly_Used_Defense_Sites_FUDS_Public_Munitions_Response_Areas_MRA/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Formerly Used Defense Sites (FUDS) Public Munitions Response Areas (MRA)."
+            },
+            {
+              "name": "Formerly Used Defense Sites (FUDS) Public Munitions Response Sites (MRS)",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/fuds/FeatureServer/3",
+              "description": "HIFLD geospatial data sets containing information on Formerly Used Defense Sites (FUDS) Public Munitions Response Sites (MRS)."
+            },
+            {
+              "name": "Formerly Used Defense Sites (FUDS) Public Properties",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/fuds/FeatureServer/1",
+              "description": "HIFLD geospatial data sets containing information on Formerly Used Defense Sites (FUDS) Public Properties."
+            },
+            {
+              "name": "Formerly Used Defense Sites (FUDS) Public Property Boundaries",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/fuds/FeatureServer/4",
+              "description": "HIFLD geospatial data sets containing information on Formerly Used Defense Sites (FUDS) Public Property Boundaries."
+            },
+            {
+              "name": "Governors Mansions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Governors_Mansions/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Governors Mansions."
+            },
+            {
+              "name": "Interim Risk Management (IRM) Property Boundary",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/fuds/FeatureServer/8",
+              "description": "HIFLD geospatial data sets containing information on Interim Risk Management (IRM) Property Boundary."
+            },
+            {
+              "name": "Interim Risk Management (IRM) Property Point",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/fuds/FeatureServer/6",
+              "description": "HIFLD geospatial data sets containing information on Interim Risk Management (IRM) Property Point."
+            },
+            {
+              "name": "Major State Government Buildings",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Major_State_Government_Buildings/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Major State Government Buildings."
+            },
+            {
+              "name": "State Capitol Buildings",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/StateCapitolBuildings/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on State Capitol Buildings."
+            },
+            {
+              "name": "US Army Corps of Engineers (USACE) Civil Works Districts",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/usace_cw_districts/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on US Army Corps of Engineers (USACE) Civil Works Districts."
+            },
+            {
+              "name": "US Army Corps of Engineers (USACE) Military Districts",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/usace_mil_dist/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on US Army Corps of Engineers (USACE) Military Districts."
+            },
+            {
+              "name": "US Army Corps of Engineers (USACE) Military Divisions",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/usace_mil_div/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on US Army Corps of Engineers (USACE) Military Divisions."
+            },
+            {
+              "name": "US Army Corps of Engineers (USACE) Offices",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/usace_offices/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on US Army Corps of Engineers (USACE) Offices."
+            },
+            {
+              "name": "USCG Districts",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/USCG_Districts_/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on USCG Districts."
+            },
+            {
+              "name": "USCG Sectors",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/USCG_Sectors_/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on USCG Sectors."
+            },
+            {
+              "name": "Environmental Protection Agency (EPA) Facilities",
+              "type": "esri-mapServer",
+              "url": "https://geodata.epa.gov/arcgis/rest/services/OEI/EPA_Locations/MapServer/1",
+              "description": "HIFLD geospatial data sets containing information on Environmental Protection Agency (EPA) Facilities."
+            },
+            {
+              "name": "Political Jurisdictions",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/4",
+              "description": "HIFLD geospatial data sets containing information on Political Jurisdictions."
+            },
+            {
+              "name": "Weather Radar Stations",
+              "type": "esri-mapServer",
+              "url": "https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/3",
+              "description": "HIFLD geospatial data sets containing information on Weather Radar Stations."
+            }
+          ]
+        },
+        {
+          "name": "Law Enforcement",
+          "type": "group",
+          "items": [
+            {
+              "name": "Federal Bureau of Investigation (FBI) Field Office (FO) Locations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/FBI_FO_Locations/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Federal Bureau of Investigation (FBI) Field Office (FO) Locations."
+            },
+            {
+              "name": "Federal Bureau of Investigation (FBI) Field Office Jurisdiction/Divisions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/FBI_FO_Boundaries/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Federal Bureau of Investigation (FBI) Field Office Jurisdiction/Divisions."
+            },
+            {
+              "name": "Federal Bureau of Investigation (FBI) Resident Agency (RA) Districts",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/FBI_RA_Boundaries/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Federal Bureau of Investigation (FBI) Resident Agency (RA) Districts."
+            },
+            {
+              "name": "Prison Boundaries",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Prison_Boundaries/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Prison Boundaries."
+            },
+            {
+              "name": "US Court of Appeals Circuits",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/US_Courts_of_Appeal_Circuits1/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "US District Court Jurisdictions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/US_District_Court_Jurisdictions/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on US District Court Jurisdictions."
+            }
+          ]
+        },
+        {
+          "name": "Mail Shipping",
+          "type": "group",
+          "items": [
+            {
+              "name": "DHL Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/DHL_Facilities/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on DHL Facilities."
+            },
+            {
+              "name": "FedEx Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/FedEx_Facilities/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on FedEx Facilities."
+            },
+            {
+              "name": "Private Non Retail Shipping Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Private_Non_Retail_Shipping_Facilities/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Private Non Retail Shipping Facilities."
+            },
+            {
+              "name": "UPS Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/UPS_Facilities/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on UPS Facilities."
+            }
+          ]
+        },
+        {
+          "name": "Mining",
+          "type": "group",
+          "items": [
+            {
+              "name": "US Coal Fields",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/US_Coal_Fields/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on US Coal Fields."
+            }
+          ]
+        },
+        {
+          "name": "National Flood Hazard",
+          "type": "group",
+          "items": [
+            {
+              "name": "Coastal Barrier Resources System (CBRS) Boundaries",
+              "type": "esri-mapServer",
+              "url": "https://cbrsgis.wim.usgs.gov/arcgis/rest/services/FEMA/CBRS_Prohibitions/MapServer/0",
+              "description": ""
+            },
+            {
+              "name": "100 Year Flood Zones",
+              "type": "esri-mapServer",
+              "url": "https://maps3.arcgisonline.com/ArcGIS/rest/services/A-16/FEMA_100-Year_Flood_Zones_in_the_USA/MapServer/1/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Alluvial Fans",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/31/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Base Flood Elevations",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/8/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Base Index",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/22/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Coastal Barrier Resources System (CBRS) Boundaries",
+              "type": "esri-mapServer",
+              "url": "https://cbrsgis.wim.usgs.gov/arcgis/rest/services/FEMA/CBRS_Prohibitions/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Coastal Barrier Resources System (CBRS) Boundaries."
+            },
+            {
+              "name": "Coastal Gages",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/25/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Coastal Transects",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/12/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Counties with Flood Data Available",
+              "type": "esri-mapServer",
+              "url": "https://maps3.arcgisonline.com/ArcGIS/rest/services/A-16/FEMA_100-Year_Flood_Zones_in_the_USA/MapServer/2/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Cross-Sections",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/7/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Datum Conversion Points",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/24/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "FIRM Panels",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/1/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Flood Hazard Boundaries",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/19/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Flood Hazard Zones",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/20/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Gages",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/26/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "General Structures",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/14/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "High Water Marks",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/28/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Hydrologic Reaches",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/30/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Levees",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/9/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Limit of Moderate Wave Action",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/18/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "LOMAs",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/3/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "LOMRs",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/2/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "NFHL Availability",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/0/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Nodes",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/27/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "PLSS",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/17/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Primary Frontal Dunes",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/21/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Profile Baselines",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/5/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "River Mile Markers",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/15/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Seclusion Boundaries",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/11/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Station Start Points",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/29/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Study Info",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/33",
+              "description": ""
+            },
+            {
+              "name": "Subbasins",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/32",
+              "description": ""
+            },
+            {
+              "name": "Topographic Low Confidence Areas",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/23/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Transect Baselines",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/13/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Water Areas",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/16/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Water Lines",
+              "type": "esri-mapServer",
+              "url": "https://hazards.fema.gov/gis/nfhl/rest/services/FIRMette/NFHLREST_FIRMette/MapServer/6/query?outFields=*&where=1%3D1",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "Natural Hazards",
+          "type": "group",
+          "items": [
+            {
+              "name": "Fire Perimeters",
+              "type": "esri-featureServer",
+              "url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/Public_Wildfire_Perimeters_View/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Fire Perimeters."
+            },
+            {
+              "name": "Historical Tornado Tracks",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Historical_Tornado_Tracks/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Historical Tornado Tracks."
+            },
+            {
+              "name": "Landslide Regions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Landslide_Regions/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Landslide Regions."
+            },
+            {
+              "name": "Streamflow Gauging Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Streamflow_Gaging_Stations/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Streamflow Gauging Stations."
+            },
+            {
+              "name": "Deep Ocean Assessment and Reporting of Tsunamis (DART) Stations",
+              "type": "esri-mapServer",
+              "url": "https://gis.ngdc.noaa.gov/arcgis/rest/services/web_mercator/hazards/MapServer/8",
+              "description": "HIFLD geospatial data sets containing information on Deep Ocean Assessment and Reporting of Tsunamis (DART) Stations."
+            },
+            {
+              "name": "Historical Holocene Volcano Locations",
+              "type": "esri-mapServer",
+              "url": "https://gis.ngdc.noaa.gov/arcgis/rest/services/web_mercator/hazards/MapServer/7",
+              "description": "HIFLD geospatial data sets containing information on Historical Holocene Volcano Locations."
+            },
+            {
+              "name": "Historical Significant Earthquake Locations",
+              "type": "esri-mapServer",
+              "url": "https://earthquake.usgs.gov/arcgis/rest/services/eq/catalog/MapServer",
+              "description": "HIFLD geospatial data sets containing information on Historical Significant Earthquake Locations."
+            },
+            {
+              "name": "Historical Significant Volcanic Eruption Locations",
+              "type": "esri-mapServer",
+              "url": "https://gis.ngdc.noaa.gov/arcgis/rest/services/web_mercator/hazards/MapServer/6",
+              "description": "HIFLD geospatial data sets containing information on Historical Significant Volcanic Eruption Locations."
+            },
+            {
+              "name": "Historical Tsunami Event Locations ",
+              "type": "esri-mapServer",
+              "url": "https://gis.ngdc.noaa.gov/arcgis/rest/services/web_mercator/hazards/MapServer/4",
+              "description": "HIFLD geospatial data sets containing information on Historical Tsunami Event Locations ."
+            },
+            {
+              "name": "Historical Tsunami Event Locations with Runups",
+              "type": "esri-mapServer",
+              "url": "https://gis.ngdc.noaa.gov/arcgis/rest/services/web_mercator/hazards/MapServer/4",
+              "description": "HIFLD geospatial data sets containing information on Historical Tsunami Event Locations with Runups."
+            },
+            {
+              "name": "Plate Boundaries",
+              "type": "esri-mapServer",
+              "url": "https://earthquake.usgs.gov/arcgis/rest/services/eq/map_plateboundaries/MapServer/1",
+              "description": "HIFLD geospatial data sets containing information on Plate Boundaries."
+            },
+            {
+              "name": "Quaternary Fault Lines",
+              "type": "esri-mapServer",
+              "url": "https://earthquake.usgs.gov/arcgis/rest/services/eq/map_faults/MapServer",
+              "description": "HIFLD geospatial data sets containing information on Quaternary Fault Lines."
+            },
+            {
+              "name": "Seismic Ground Motion Hazards with 10 Percent Probability",
+              "type": "esri-mapServer",
+              "url": "https://earthquake.usgs.gov/arcgis/rest/services/haz/USpga050_2014/MapServer",
+              "description": "HIFLD geospatial data sets containing information on Seismic Ground Motion Hazards with 10 Percent Probability."
+            },
+            {
+              "name": "Seismic Ground Motion Hazards with 2 Percent Probability",
+              "type": "esri-mapServer",
+              "url": "https://earthquake.usgs.gov/arcgis/rest/services/haz/USpga250_2014/MapServer",
+              "description": "HIFLD geospatial data sets containing information on Seismic Ground Motion Hazards with 2 Percent Probability."
+            },
+            {
+              "name": "Tsunami Capable Tide Stations",
+              "type": "esri-mapServer",
+              "url": "https://gis.ngdc.noaa.gov/arcgis/rest/services/web_mercator/hazards/MapServer/10",
+              "description": "HIFLD geospatial data sets containing information on Tsunami Capable Tide Stations."
+            }
+          ]
+        },
+        {
+          "name": "Public Health",
+          "type": "group",
+          "items": [
+            {
+              "name": "Hospitals",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hospitals_1/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Hospitals."
+            },
+            {
+              "name": "Nursing Homes",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/NursingHomes/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Nursing Homes."
+            },
+            {
+              "name": "Pharmacies",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Pharmacies/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Pharmacies."
+            },
+            {
+              "name": "Public Health Departments",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Public_Health_Departments/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Public Health Departments."
+            },
+            {
+              "name": "Trauma Levels",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hospitals_1/FeatureServer/1",
+              "description": "HIFLD geospatial data sets containing information on Trauma Levels."
+            },
+            {
+              "name": "Urgent Care Facilities",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Urgent_Care_Facilities/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Urgent Care Facilities."
+            }
+          ]
+        },
+        {
+          "name": "Public Venues",
+          "type": "group",
+          "items": [
+            {
+              "name": "All Places of Worship",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/AllPlacesOfWorship/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on All Places of Worship."
+            },
+            {
+              "name": "Convention Centers/ Fairgrounds",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Convention_Centers_and_State_Fairgrounds/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Convention Centers/ Fairgrounds."
+            },
+            {
+              "name": "Cruise Line Terminals",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Cruise_Line_Terminals/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Cruise Line Terminals."
+            },
+            {
+              "name": "Major Sport Venues Usage",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Major_Sport_Venues_Usage/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Major Sport Venues Usage."
+            },
+            {
+              "name": "Major Sport Venues",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/MajorSportVenues/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Major Sport Venues."
+            },
+            {
+              "name": "Mobile Home Parks",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Mobile_Home_Parks/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Mobile Home Parks."
+            }
+          ]
+        },
+        {
+          "name": "Transportation Air",
+          "type": "group",
+          "items": [
+            {
+              "name": "Aircraft Landing Facilities",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Airports_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Aircraft Landing Facilities."
+            },
+            {
+              "name": "Airspace Boundaries",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Airspace_Boundaries/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Airspace Boundaries."
+            },
+            {
+              "name": "Federal Aviation Administration (FAA) Regions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Federal_Aviation_Administration_FAA_Regions/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Federal Aviation Administration (FAA) Regions."
+            },
+            {
+              "name": "Runway",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Runways/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Runway."
+            }
+          ]
+        },
+        {
+          "name": "Transportation Ground",
+          "type": "group",
+          "items": [
+            {
+              "name": "Amtrak Stations",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Amtrak_Stations_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Amtrak Stations."
+            },
+            {
+              "name": "Intermodal Passenger Connectivity Database (IPCD)",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Intermodal_Passenger_Connectivity_Database_IPCD_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Intermodal Passenger Connectivity Database (IPCD)."
+            },
+            {
+              "name": "National Bridge Inventory (NBI) Bridges",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/National_Bridge_Inventory_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on National Bridge Inventory (NBI) Bridges."
+            },
+            {
+              "name": "Public Transit Routes",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Public_Transit_Routes/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Public Transit Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Public_Transit_Stations/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Public Transit Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Public_Transit_Stations/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Public Transit Stations."
+            },
+            {
+              "name": "Rail Company",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Rail_Company/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Rail Company."
+            },
+            {
+              "name": "Rail Junctions",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Rail_Junctions/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Rail Junctions."
+            },
+            {
+              "name": "Railroad Bridges",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Railroad_Bridges/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Railroad Bridges."
+            },
+            {
+              "name": "Road Tunnels",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Road_Tunnels/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Road Tunnels."
+            },
+            {
+              "name": "Routes and Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Routes_and_Stations/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Routes and Stations."
+            },
+            {
+              "name": "Stations and Transfers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Station_and_Transfers/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Stations and Transfers."
+            },
+            {
+              "name": "Trails",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Trails/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Trails."
+            },
+            {
+              "name": "Travel Monitoring Analysis System",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Travel_Monitoring_Analysis_System_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Travel Monitoring Analysis System."
+            },
+            {
+              "name": "Weigh in Motion Stations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Weigh_in_Motion_Stations/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Intermodal Freight Facilities Air to Truck",
+              "type": "esri-mapServer",
+              "url": "https://geo.dot.gov/server/rest/services/NTAD/Intermodal_Freight_Facility_Air_To_Truck/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Intermodal Freight Facilities Air to Truck."
+            },
+            {
+              "name": "Intermodal Freight Facilities Marine Roll On Roll Off",
+              "type": "esri-mapServer",
+              "url": "https://geo.dot.gov/server/rest/services/NTAD/Intermodal_Freight_Facilities_Marine_Roll_on_Roll_off/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Intermodal Freight Facilities Marine Roll On Roll Off."
+            },
+            {
+              "name": "Intermodal Freight Facilities Rail TOFC/COFC",
+              "type": "esri-mapServer",
+              "url": "https://geo.dot.gov/server/rest/services/NTAD/Intermodal_Freight_Facilities_RailTOFCCOFC/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Intermodal Freight Facilities Rail TOFC/COFC."
+            },
+            {
+              "name": "Local Roads",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/8",
+              "description": ""
+            },
+            {
+              "name": "Local Roads 72k scale",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/7/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Primary Roads",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/2/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Primary Roads 2 1M scale",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/1/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Primary Roads Interstates 5M scale",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/0/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "Railroad Crossings",
+              "type": "esri-mapServer",
+              "url": "https://geo.dot.gov/server/rest/services/NTAD/Railroad_Crossings/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Railroad Crossings."
+            },
+            {
+              "name": "Railroads",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer/9",
+              "description": "HIFLD geospatial data sets containing information on Railroads."
+            },
+            {
+              "name": "Transportation",
+              "type": "esri-mapServer",
+              "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer",
+              "description": "HIFLD geospatial data sets containing information on Transportation."
+            }
+          ]
+        },
+        {
+          "name": "Transportation Water",
+          "type": "group",
+          "items": [
+            {
+              "name": "Administrative Areas where Vessels May Anchor (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Administrative_Areas_where_Vessels_May_Anchor_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Administrative Areas where Vessels May Anchor (USACE IENC)."
+            },
+            {
+              "name": "Anchorages (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Anchorages_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Anchorages (USACE IENC)."
+            },
+            {
+              "name": "Built Up Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Built_Up_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Built Up Areas (USACE IENC)."
+            },
+            {
+              "name": "Buoys (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services3.arcgis.com/JR1tf2VoTNNjWen5/ArcGIS/rest/services/USACE_Buoys_Service/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Buoys (USACE IENC)."
+            },
+            {
+              "name": "Dam Lines (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Dam_Lines_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Dam Lines (USACE IENC)."
+            },
+            {
+              "name": "Daymark Locations (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Daymark_Locations_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Daymark Locations (USACE IENC)."
+            },
+            {
+              "name": "Depth Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Depth_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Depth Areas (USACE IENC)."
+            },
+            {
+              "name": "Distance Marks (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Distance_Marks_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Distance Marks (USACE IENC)."
+            },
+            {
+              "name": "Dry Docks (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Dry_Docks_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Dry Docks (USACE IENC)."
+            },
+            {
+              "name": "Ferry Routes (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Ferry_Routes_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Ferry Routes (USACE IENC)."
+            },
+            {
+              "name": "Floodwalls (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Floodwalls_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Floodwalls (USACE IENC)."
+            },
+            {
+              "name": "Harbor Facility Locations (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Harbor_Facility_Locations_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Harbor Facility Locations (USACE IENC)."
+            },
+            {
+              "name": "Hulke Areas",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Hulke_Areas/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Hulke Areas."
+            },
+            {
+              "name": "Lakes (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Lakes_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Lakes (USACE IENC)."
+            },
+            {
+              "name": "Land Region Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Land_Region_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Land Region Areas (USACE IENC)."
+            },
+            {
+              "name": "Land Region Locations (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Land_Region_Locations_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Land Region Locations (USACE IENC)."
+            },
+            {
+              "name": "Land Surface Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Land_Surface_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Land Surface Areas (USACE IENC)."
+            },
+            {
+              "name": "Landmark Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Landmark_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Landmark Areas (USACE IENC)."
+            },
+            {
+              "name": "Landmark Locations (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Landmark_Locations_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Landmark Locations (USACE IENC)."
+            },
+            {
+              "name": "Levee Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Levee_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Levee Areas (USACE IENC)."
+            },
+            {
+              "name": "Levee Lines (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Levee_Lines_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Levee Lines (USACE IENC)."
+            },
+            {
+              "name": "Lock Gate Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Lock_Gate_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Lock Gate Areas (USACE IENC)."
+            },
+            {
+              "name": "Lock Gate Lines (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Lock_Gate_Lines_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Lock Gate Lines (USACE IENC)."
+            },
+            {
+              "name": "Lock Traffic Signal Stations (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Lock_Traffic_Signal_Stations_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Lock Traffic Signal Stations (USACE IENC)."
+            },
+            {
+              "name": "Locks",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/ArcGIS/rest/services/ndc/FeatureServer/3",
+              "description": "HIFLD geospatial data sets containing information on Locks."
+            },
+            {
+              "name": "Major US Port Facilities",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Ports_Major_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Major US Port Facilities."
+            },
+            {
+              "name": "Mooring Facility Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Mooring_Facility_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Mooring Facility Areas (USACE IENC)."
+            },
+            {
+              "name": "Mooring Facility Lines (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Mooring_Facility_Lines_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Mooring Facility Lines (USACE IENC)."
+            },
+            {
+              "name": "Mooring Facility Locations (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Mooring_Facility_Locations_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Mooring Facility Locations (USACE IENC)."
+            },
+            {
+              "name": "Nautical Publication Information Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Nautical_Publication_Information_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Nautical Publication Information Areas (USACE IENC)."
+            },
+            {
+              "name": "Navigable Waterway Network Lines",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Navigable_Waterway_Lines_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Navigable Waterway Network Lines."
+            },
+            {
+              "name": "Navigable Waterway Network Node Locations",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Navigable_Waterway_Nodes_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Navigable Waterway Network Node Locations."
+            },
+            {
+              "name": "Navigation Lights (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Navigation_Lights_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Navigation Lights (USACE IENC)."
+            },
+            {
+              "name": "Navigation System of Marks Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Navigation_System_of_Marks_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Navigation System of Marks Areas (USACE IENC)."
+            },
+            {
+              "name": "Obstruction Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Obstruction_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Obstruction Areas (USACE IENC)."
+            },
+            {
+              "name": "Port Facilities",
+              "type": "esri-featureServer",
+              "url": "https://geo.dot.gov/server/rest/services/Hosted/Ports_DS/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Port Facilities."
+            },
+            {
+              "name": "Regulated Navigational Areas",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Regulated_Navigational_Areas/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Regulated Navigational Areas."
+            },
+            {
+              "name": "Roads (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Roads_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Roads (USACE IENC)."
+            },
+            {
+              "name": "Safety Zones",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Safety_Zones/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Safety Zones."
+            },
+            {
+              "name": "Sea Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Sea_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Sea Areas (USACE IENC)."
+            },
+            {
+              "name": "Security Zones",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Security_Zones/FeatureServer/0",
+              "description": ""
+            },
+            {
+              "name": "Shipping Fairways",
+              "type": "esri-featureServer",
+              "url": "https://encdirect.noaa.gov/arcgis/rest/services/NavigationChartData/MarineTransportation/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Shipping Fairways."
+            },
+            {
+              "name": "Sloped Ground Areas (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Sloped_Ground_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Sloped Ground Areas (USACE IENC)."
+            },
+            {
+              "name": "Sloped Ground Lines (USACE IENC)",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Sloped_Ground_Areas_USACE_IENC/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Sloped Ground Lines (USACE IENC)."
+            },
+            {
+              "name": "Underwater Rock Areas",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Underwater_Rocks/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on Underwater Rock Areas."
+            },
+            {
+              "name": "US Coast Guard (USCG) Captain of the Port Zones",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/US_Coast_Guard_USCG_Captain_of_the_Port_Zones/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on US Coast Guard (USCG) Captain of the Port Zones."
+            },
+            {
+              "name": "US Coast Guard (USCG) Maritime Differential GPS (DGPS) Locations",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/US_Coast_Guard_USCG_Maritime_Differential_GPS_DGPS_Locations/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on US Coast Guard (USCG) Maritime Differential GPS (DGPS) Locations."
+            },
+            {
+              "name": "Airports (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/AIRPORT_POINT/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Airports (USACE IENC)."
+            },
+            {
+              "name": "Berths Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Berths_Area/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Berths Areas (USACE IENC)."
+            },
+            {
+              "name": "Building Locations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/BUILDING_POINT/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Building Locations (USACE IENC)."
+            },
+            {
+              "name": "Cable Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/CABLE_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Cable Areas (USACE IENC)."
+            },
+            {
+              "name": "Caution Area Locations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/CABLE_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Caution Area Locations (USACE IENC)."
+            },
+            {
+              "name": "Coastlines (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/COASTLINE/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Coastlines (USACE IENC)."
+            },
+            {
+              "name": "Conveyor Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/CONVEYOR_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Conveyor Areas (USACE IENC)."
+            },
+            {
+              "name": "Crane Locations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/CONVEYOR_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Crane Locations (USACE IENC)."
+            },
+            {
+              "name": "Data Coverage Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/DATA_COVERAGE/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Data Coverage Areas (USACE IENC)."
+            },
+            {
+              "name": "Data Quality Assessment Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/DATA_QUALITY/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Data Quality Assessment Areas (USACE IENC)."
+            },
+            {
+              "name": "Dumping Ground Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/DUMPING_GROUND_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Dumping Ground Areas (USACE IENC)."
+            },
+            {
+              "name": "Ferry Terminals",
+              "type": "esri-mapServer",
+              "url": "https://geo.dot.gov/server/rest/services/NTAD/Ferry_Terminals/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Ferry Terminals."
+            },
+            {
+              "name": "Floating Docks (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Floating_Dock/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Floating Docks (USACE IENC)."
+            },
+            {
+              "name": "Harbor Administrative Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Harbor_Area/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Harbor Administrative Areas (USACE IENC)."
+            },
+            {
+              "name": "Harbour Facility Point (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Harbour_Facility_Point/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Harbour Facility Point (USACE IENC)."
+            },
+            {
+              "name": "Isoloated Danger Buoy Point (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/ISOLATED_DANGER_BUOY_POINT/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Isoloated Danger Buoy Point (USACE IENC)."
+            },
+            {
+              "name": "Lock Basins (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Lock_Basin/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Lock Basins (USACE IENC)."
+            },
+            {
+              "name": "Marine Jurisdiction Boundaries",
+              "type": "esri-mapServer",
+              "url": "https://maritimeboundaries.noaa.gov/arcgis/rest/services/MaritimeBoundaries/US_Maritime_Limits_Boundaries/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Marine Jurisdiction Boundaries."
+            },
+            {
+              "name": "Nautical Navigation Aids (NAVAID) Locations",
+              "type": "esri-mapServer",
+              "url": "https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Nautical Navigation Aids (NAVAID) Locations."
+            },
+            {
+              "name": "Notice Marks (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Notice_Mark/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Notice Marks (USACE IENC)."
+            },
+            {
+              "name": "Obstruction Lines (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/OBSTRUCTION_LINE/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Obstruction Lines (USACE IENC)."
+            },
+            {
+              "name": "Obstruction Locations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/OBSTRUCTION_POINT/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Obstruction Locations (USACE IENC)."
+            },
+            {
+              "name": "Outer Continental Shelf (OCS) Protraction Diagrams & Leasing Maps",
+              "type": "esri-mapServer",
+              "url": "https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/10",
+              "description": "HIFLD geospatial data sets containing information on Outer Continental Shelf (OCS) Protraction Diagrams & Leasing Maps."
+            },
+            {
+              "name": "Overhead Cables (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Overhead_Cable/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Overhead Cables (USACE IENC)."
+            },
+            {
+              "name": "Overhead Pipeline Lines (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Overhead_Pipeline/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Overhead Pipeline Lines (USACE IENC)."
+            },
+            {
+              "name": "Pile Locations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/PILE_POINT/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Pile Locations (USACE IENC)."
+            },
+            {
+              "name": "Pipeline Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/PIPE_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Pipeline Areas (USACE IENC)."
+            },
+            {
+              "name": "Pylon Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/PYLONS_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Pylon Areas (USACE IENC)."
+            },
+            {
+              "name": "Pylon Locations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/PYLONS_POINT/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Pylon Locations (USACE IENC)."
+            },
+            {
+              "name": "Railways (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/RAILROAD/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Railways (USACE IENC)."
+            },
+            {
+              "name": "Recommended Tracks (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/RECOMMENDED_TRACK/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Recommended Tracks (USACE IENC)."
+            },
+            {
+              "name": "Restricted Navigation Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Restricted_Area/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Restricted Navigation Areas (USACE IENC)."
+            },
+            {
+              "name": "River Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/RIVERS_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on River Areas (USACE IENC)."
+            },
+            {
+              "name": "River Gauges (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Waterway_Gauge_Point/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on River Gauges (USACE IENC)."
+            },
+            {
+              "name": "River Lines (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/RIVERS_LINE/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on River Lines (USACE IENC)."
+            },
+            {
+              "name": "Shoreline Construction Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Shoreline_Construction_Area/MapServer",
+              "description": "HIFLD geospatial data sets containing information on Shoreline Construction Areas (USACE IENC)."
+            },
+            {
+              "name": "Shoreline Construction Locations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/SHORELINE_CONSTRUCTION_POINT/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Shoreline Construction Locations (USACE IENC)."
+            },
+            {
+              "name": "Small Craft Facility Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/SMALL_CRAFT_FACILITY_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Small Craft Facility Areas (USACE IENC)."
+            },
+            {
+              "name": "Small Craft Facility Locations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/SMALL_CRAFT_FACILITY_POINT/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Small Craft Facility Locations (USACE IENC)."
+            },
+            {
+              "name": "Special Purpose Buoys (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/BUOY_SPECIAL_PURPOSE/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Special Purpose Buoys (USACE IENC)."
+            },
+            {
+              "name": "Storage Tank or Silo Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/STORAGE_TANK_OR_SILO_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Storage Tank or Silo Areas (USACE IENC)."
+            },
+            {
+              "name": "Submarine Cable Lines (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/SUBMARINE_CABLE/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Submarine Cable Lines (USACE IENC)."
+            },
+            {
+              "name": "Submarine Pipeline Lines (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/SUBMARINE_PIPELINE/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Submarine Pipeline Lines (USACE IENC)."
+            },
+            {
+              "name": "Submarine Pipeline Locations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/SUBMARINE_PIPELINE_POINT/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Submarine Pipeline Locations (USACE IENC)."
+            },
+            {
+              "name": "Submerged Land Act (SLA) Boundary",
+              "type": "esri-mapServer",
+              "url": "https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/8",
+              "description": "HIFLD geospatial data sets containing information on Submerged Land Act (SLA) Boundary."
+            },
+            {
+              "name": "Terminal Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Terminal_Area/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Terminal Areas (USACE IENC)."
+            },
+            {
+              "name": "Terminal Points (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Terminal_Point/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Terminal Points (USACE IENC)."
+            },
+            {
+              "name": "Warning Signal Stations (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/Warning_Signal_Station/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Warning Signal Stations (USACE IENC)."
+            },
+            {
+              "name": "Wreck Areas (USACE IENC)",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/WRECK_AREA/MapServer/0",
+              "description": "HIFLD geospatial data sets containing information on Wreck Areas (USACE IENC)."
+            },
+            {
+              "name": "Wrecks and Obstructions",
+              "type": "esri-mapServer",
+              "url": "https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/WRECK_POINT/MapServer",
+              "description": "HIFLD geospatial data sets containing information on Wrecks and Obstructions."
+            }
+          ]
+        },
+        {
+          "name": "Water Supply",
+          "type": "group",
+          "items": [
+            {
+              "name": "Aquifers",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Aquifers/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Aquifers."
+            },
+            {
+              "name": "Dam Lines",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Dam_Lines/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Dam Lines."
+            },
+            {
+              "name": "Environmental Protection Agency (EPA) Facility Registry Service (FRS) Wastewater Treatment Plants",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Wastewater/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Environmental Protection Agency (EPA) Facility Registry Service (FRS) Wastewater Treatment Plants."
+            },
+            {
+              "name": "National Hydrography Dataset (NHD) Lines - Large Scale",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/NHDHydrographyLinesData/FeatureServer",
+              "description": "HIFLD geospatial data sets containing information on National Hydrography Dataset (NHD) Lines - Large Scale."
+            },
+            {
+              "name": "Reclamation Resevoirs",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Reclamation_Reservoirs/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Reclamation Resevoirs."
+            },
+            {
+              "name": "US Army Corps of Engineers (USACE) Owned and Operated Reservoirs",
+              "type": "esri-featureServer",
+              "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/usace_rez/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on US Army Corps of Engineers (USACE) Owned and Operated Reservoirs."
+            },
+            {
+              "name": "Watershed Boundary Areas",
+              "type": "esri-featureServer",
+              "url": "https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Watershed_Boundary_Areas/FeatureServer/0",
+              "description": "HIFLD geospatial data sets containing information on Watershed Boundary Areas."
+            },
+            {
+              "name": "10-digit HU (Watershed)",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/5/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "12-digit HU (Subwatershed)",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/6/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "14-digit HU",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/7/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "16-digit HU",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/8/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "2-digit HU (Region)",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/1/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "4-digit HU (Subregion)",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/2/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "6-digit HU (Basin)",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/3/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "8-digit HU (Subbasin)",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer/4/query?outFields=*&where=1%3D1",
+              "description": ""
+            },
+            {
+              "name": "National Hydrography Dataset (NHD) Areas - Small Scale",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/7",
+              "description": "HIFLD geospatial data sets containing information on National Hydrography Dataset (NHD) Areas - Small Scale."
+            },
+            {
+              "name": "National Hydrography Dataset (NHD) Flowlines - Large Scale",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6",
+              "description": "HIFLD geospatial data sets containing information on National Hydrography Dataset (NHD) Flowlines - Large Scale."
+            },
+            {
+              "name": "National Hydrography Dataset (NHD) Flowlines - Small Scale",
+              "type": "esri-mapServer",
+              "url": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/5",
+              "description": "HIFLD geospatial data sets containing information on National Hydrography Dataset (NHD) Flowlines - Small Scale."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
