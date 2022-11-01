@@ -5,7 +5,7 @@
   "catalog": [
     {
       "type": "csv",
-      "name": "Tide Gauge Locations",
+      "name": "Sea Level Change",
       "description": "Sea level change data at major stations as presented in: <p>Sweet, W.V., R.E. Kopp, C. P. Weaver, J. Obeysekera, R. M. Horton, E.R. Thieler and C. Zervas (2017), Global and Regional Sea Level Rise Scenarios for the United States. NOAA Tech. Rep. NOS CO-OPS 83. <a href=\"https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf\">[link]</a></p> <p> To learn more, please visit the <a href=\"http://usgs.maps.arcgis.com/apps/Cascade/index.html?appid=668f6dc7014d45228c993302d3eab2f5\">USGS Sea Level Change story map</a>.",
       "url": "https://raw.githubusercontent.com/zdefne-usgs/sweet_slr/master/major_stations2.csv",
       "dateFormat": " Year yyyy",
