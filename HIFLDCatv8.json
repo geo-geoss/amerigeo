@@ -1,0 +1,193 @@
+{
+  "workbench": [
+    "NEVuXS"
+  ],
+  "catalog": [
+    {
+      "type": "csv",
+      "name": "Tide Gauge Locations",
+      "description": "Sea level change data at major stations as presented in: <p>Sweet, W.V., R.E. Kopp, C. P. Weaver, J. Obeysekera, R. M. Horton, E.R. Thieler and C. Zervas (2017), Global and Regional Sea Level Rise Scenarios for the United States. NOAA Tech. Rep. NOS CO-OPS 83. <a href=\"https://tidesandcurrents.noaa.gov/publications/techrpt83_Global_and_Regional_SLR_Scenarios_for_the_US_final.pdf\">[link]</a></p> <p> To learn more, please visit the <a href=\"http://usgs.maps.arcgis.com/apps/Cascade/index.html?appid=668f6dc7014d45228c993302d3eab2f5\">USGS Sea Level Change story map</a>.",
+      "url": "https://raw.githubusercontent.com/zdefne-usgs/sweet_slr/master/major_stations2.csv",
+      "dateFormat": " Year yyyy",
+      "hideSource": true,
+      "currentTime": "2100-01-01",
+      "columns": [
+        {
+          "name": "id",
+          "type": "hidden"
+        },
+        {
+          "name": "BackgroundRSLrate",
+          "units": "mm/yr",
+          "title": "Background RSL rate (mm/yr)"
+        },
+        {
+          "name": "03-MED",
+          "units": "m",
+          "title": "GMSL 0.3m Scenario (m)"
+        },
+        {
+          "name": "03-LOW",
+          "units": "m",
+          "title": "GMSL 0.3m Low End (m)"
+        },
+        {
+          "name": "03-HIGH",
+          "units": "m",
+          "title": "GMSL 0.3m High End (m)"
+        },
+        {
+          "name": "05-MED",
+          "units": "m",
+          "title": "GMSL 0.5m Scenario (m)"
+        },
+        {
+          "name": "05-LOW",
+          "units": "m",
+          "title": "GMSL 0.5m Low End (m)"
+        },
+        {
+          "name": "05-HIGH",
+          "units": "m",
+          "title": "GMSL 0.5m High End (m)"
+        },
+        {
+          "name": "10-MED",
+          "units": "m",
+          "title": "GMSL 1.0m Scenario (m)"
+        },
+        {
+          "name": "10-LOW",
+          "units": "m",
+          "title": "GMSL 1.0m Low End (m)"
+        },
+        {
+          "name": "10-HIGH",
+          "units": "m",
+          "title": "GMSL 1.0m High End (m)"
+        },
+        {
+          "name": "15-MED",
+          "units": "m",
+          "title": "GMSL 1.5m Scenario (m)"
+        },
+        {
+          "name": "15-LOW",
+          "units": "m",
+          "title": "GMSL 1.5m Low End (m)"
+        },
+        {
+          "name": "15-HIGH",
+          "units": "m",
+          "title": "GMSL 1.5m High End (m)"
+        },
+        {
+          "name": "20-MED",
+          "units": "m",
+          "title": "GMSL 2.0m Scenario (m)"
+        },
+        {
+          "name": "20-LOW",
+          "units": "m",
+          "title": "GMSL 2.0m Low End (m)"
+        },
+        {
+          "name": "20-HIGH",
+          "units": "m",
+          "title": "GMSL 2.0m High End (m)"
+        },
+        {
+          "name": "25-MED",
+          "units": "m",
+          "title": "GMSL 2.5m Scenario (m)"
+        },
+        {
+          "name": "25-LOW",
+          "units": "m",
+          "title": "GMSL 2.5m Low End (m)"
+        },
+        {
+          "name": "25-HIGH",
+          "units": "m",
+          "title": "GMSL 2.5m High End (m)"
+        }
+      ],
+      "defaultStyle": {
+        "chart": {
+          "lines": [
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "03-LOW"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "03-HIGH"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "05-LOW"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "05-HIGH"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "10-LOW"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "10-HIGH"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "15-LOW"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "15-HIGH"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "20-LOW"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "20-HIGH"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "25-LOW"
+            },
+            {
+              "color": "#bfbfbf",
+              "yAxisColumn": "25-HIGH"
+            }
+          ]
+        },
+        "time": {
+          "idColumns": [
+            "id"
+          ]
+        },
+        "color": {
+          "numberOfBins": 9
+        }
+      },
+      "activeStyle": "03-MED",
+      "featureInfoTemplate": {
+        "template": "<table style=width:100%><th><tr><td><body>{{terria.timeSeries.title}}<body></td></tr></th><tr><td><chart x-column=\"{{terria.timeSeries.xName}}\" y-column=\"{{terria.timeSeries.yName}}\" id=\"{{terria.timeSeries.id}}\" column-units=\"{{terria.timeSeries.units}}\">{{terria.timeSeries.data}}</chart></td></tr></table>"
+      },
+      "id": "altzPj",
+      "shareKeys": [
+        "Root Group/Tide Gauge Locations"
+      ]
+    }
+  ],
+  "homeCamera": {
+    "west": -180,
+    "east": 180,
+    "north": 80,
+    "south": -80
+  }
+}
